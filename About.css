@@ -59,12 +59,3 @@ footer{
     left: 10px;
     color: #ada39e;
 }
-
-#image-gallery{
-    margin-top: 10%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-img{
-    width: 400px; height: 400px;
-}
