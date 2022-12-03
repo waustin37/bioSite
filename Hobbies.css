@@ -2,37 +2,41 @@
 body {background-color:#393532;}
 h1 {
     font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif; font-size: 36pt; 
-    font-weight: bold; text-align: center; color:#ada39e; 
+    font-weight: bold; text-align: center; color:#ebc3b6; 
     text-transform:uppercase;
     letter-spacing: .5em;
 }
 h3{
     font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif;
-    font-size: 12pt;
+    font-size: 16pt;
+    text-decoration: underline;
     text-align: center;
     color:#ebc3b6;
     letter-spacing: .25em;
 }
-p {
-    font-family: 'times new roman', 'Verdana', sans-serif; 
-    font-size: 12pt; 
-    text-align: left; 
-    color: #ebc3b6; 
-    margin-left: 80px; margin-top: 2px;
+figcaption:first-letter {
+    font-size: 300%;
+}
+figcaption{
+    font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif;
+    margin-top: 40px;
+    font-weight: lighter;
+    color:#ebc3b6;
+    font-size: 12pt;
     word-spacing: .20em;
     letter-spacing: .125em;
     line-height: 1.25em;
+
 }
-p:first-letter {
-    font-size: 400%;
+a.more {
+    color:#ada39e; 
+    font-weight: lighter;
+    font-family: 'Michroma', 'Verdana', sans-serif;
+    font-size: 8pt;
+    text-decoration: none;
 }
-div.bio { 
-    width: 45%;
-    float: left;
-}
-div.picture{
-    float:right;
-    width: 45%;
+#back {
+    float: right;
 }
 a.two
 {
@@ -41,11 +45,7 @@ a.two
     font-family: 'Michroma', 'Verdana', sans-serif;
     font-size: 8pt;
     text-decoration: none;
-    padding-right: 40px;
     letter-spacing: normal;
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
 }
 a:hover {
     color: #ebc3b6
@@ -53,15 +53,11 @@ a:hover {
 footer{
     font-weight: lighter;
     font-size: 80%;
-    padding-right: 40px;
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
+    float: bottom;
     color: #ada39e;
 }
-
 #image-gallery{
-    margin-top: 10%;
+    margin-top: 5%;
     display: grid;
     grid-template-columns: auto auto auto;
 }
