@@ -29,6 +29,8 @@ figcaption{
     margin-top: 30px;
     border: #63605e 2px solid;
     background-color:#282424;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    transition: 0.3s;
 }
 p.caption {
     font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif;
