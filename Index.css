@@ -2,6 +2,7 @@ body {background-color:rgb(231, 96, 45) ;
 background-image: url("Images/Sean Portrait.png");
 background-size: 100%;
 background-position: 50% 15%;
+background-repeat: no-repeat;
 }
 h1 {
     font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif; font-size: 36pt; 

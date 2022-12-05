@@ -1,5 +1,13 @@
 
-body {background-color:#393532;}
+body {background-color:#393532;
+        margin: 0;}
+
+header {
+    background-color: #282424;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: #63605e 3px solid;
+}
 h1 {
     font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif; font-size: 36pt; 
     font-weight: bold; text-align: center; color:#ebc3b6; 
@@ -18,15 +26,21 @@ figcaption:first-letter {
     font-size: 300%;
 }
 figcaption{
+    margin-top: 30px;
+    border: #63605e 2px solid;
+    background-color:#282424;
+}
+p.caption {
     font-family: 'Cinzel', 'Old Standard TT', 'Georgia', serif;
-    margin-top: 40px;
     font-weight: lighter;
     color:#ebc3b6;
     font-size: 12pt;
     word-spacing: .20em;
     letter-spacing: .125em;
     line-height: 1.25em;
-
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 a.more {
     color:#ada39e; 
@@ -35,32 +49,42 @@ a.more {
     font-size: 8pt;
     text-decoration: none;
 }
-#back {
-    float: right;
+a.more:hover {
+    color: #ebc3b6;text-decoration: underline;
+}
+#image-gallery{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+img{
+    width: 400px; height: 400px;
+    border: #63605e 2px solid;
 }
 a.two
 {
     color:#ada39e; 
     font-weight: lighter;
     font-family: 'Michroma', 'Verdana', sans-serif;
-    font-size: 8pt;
+    font-size: 80%;
     text-decoration: none;
-    letter-spacing: normal;
+    float: right;
+    margin-right: 2%;
+
 }
-a:hover {
-    color: #ebc3b6
+a.two:hover {
+    color: #ebc3b6;
+    text-decoration: underline;
 }
 footer{
+    background-color: #2f2c2c;
+    width: 100%;
+    bottom: 0; 
+}
+#footer-text{
     font-weight: lighter;
     font-size: 80%;
-    float: bottom;
+    margin-left: 2%;
     color: #ada39e;
-}
-#image-gallery{
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-img{
-    width: 400px; height: 400px;
+    bottom: 0;
 }
